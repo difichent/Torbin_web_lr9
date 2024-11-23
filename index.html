@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/adaptation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="js/code.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img class="logo" src="img/logo.png" alt="" >
+            <div class="block">
+                <div class="offer_left" >
+                    <h1 class="title">С помощью нас <br> вы сможете сделать то, о чем </h1>
+                    <span class="span_title">желаете!</span>
+                    <p class="add_info">Наши возможности + опыт позволят Вам достич огромного успеха.
+                        Мы веримв Вас! 
+                        И знаем это на все 100%. Вас не остановить!
+                    </p>
+                    <a href="#" class="first_button"> Узнать больше...</a>
+                </div>
+                <div class="offer_right">
+                    <img class="main_image" src="img/header-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main_body">
+        <div class="container">
+            <div class="center_block">
+            <h2 class="question">Что Вам необходимо?</h2>
+            </div>
+        <div class="block">
+            <div class="left_block">
+                <img class="block_image" src="img/f3.png" alt="">
+                <h3 class="h3_blocks">Первый блок</h3>
+                <div class="block_text">Lorem ipsum dolor sit amet consectetur adipisicing elit</div>
+            </div>
+            <div class="middle_block">
+                <img class="block_image" src="img/f4.png" alt ="">
+                <h3 class="h3_blocks">Второй блок</h3>
+                <div class="block_text">Lorem ipsum dolor sit amet consectetur adipisicing elit?</div>
+            </div>
+            <div class="right_block">
+                <img class="block_image" src="img/f5.png" alt="">
+                <h3 class="h3_blocks">Третий блок</h3>
+                <div class="block_text">Lorem ipsum dolor sit amet consectetur adipisicing elit!</div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <section class="form">
+        <div class="container">
+            <div class="form_header">
+                <h2 class="form_title">Форма заказа обратного звонка</h2>
+            </div>
+            <div class="forms">
+            <input type="text" placeholder="Имя" required>
+            </div>
+            <div class="forms">
+             <input type="email" placeholder="Введите свой E-mail" required>
+            </div>
+            <div class="forms">
+             <input type="tel" placeholder="Телефон" pattern="^\+7[1-9]{10}" required>
+            </div>
+            <div class="forms">
+             <input type="text" placeholder="Какая тема Вас интересует?" minlength="4" required>
+             </div>
+             <div class="forms">
+             <button type="submit" class="second_button">Отправить вопрос!</a>
+            </div>
+        </div>
+    </section>
+    </form>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <section class="form">
+            <div class="container">
+                <div class="form_header">
+                    <h2 class="form_title">Форма для доставки</h2>
+                </div>
+                <div class="forms">
+                <input type="text" placeholder="Дата" id="date" onblur="Check_date();">
+                <div id="date_Check"></div>
+                </div>
+                <div class="forms">
+                 <input type="text" placeholder="Время" id="time" onblur="Check_time();">
+                 <div id="time_Check"></div>
+                </div>
+                <div class="forms">
+                 <input placeholder="Город" id="city" type="text" onblur="Check_city();">
+                 <div id="city_Check"></div>
+                </div>
+                <div class="forms">
+                 <input placeholder="Адрес" id="address" type="text" onblur="Check_address();">
+                 <div id="address_Check"></div>
+                </div>
+                <div class="forms">
+                 <span class="second_button" onclick="Summary_check();" id="button">Подтвердить</span></a>
+                </div>
+            </div>
+            <h5>Order Summary</h5>
+        <span id="summary"><div id="summary"></div></span>
+        </section>
+    </form>
+    <section class="bottom">
+        <div class="final_words">Все на этом сайте защищено</div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,141 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.65em;
+}
+.header {
+	background: rgb(91, 180, 194);
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+.offer_left{
+	color: white;
+	height: 400px;
+}
+.offer_right{
+	height: 400px;
+}
+.logo{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.title {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+	margin-bottom: 20px;
+	width: 500px;
+}
+.span_title {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Ubuntu', sans-serif;
+}
+.add_info {
+	font-size: 16px;
+	width: 400px;
+	font-family: 'Ubuntu', sans-serif ;
+	margin-bottom: 30px;
+}
+.first_button {
+	width: 200px;
+	height: 50px;
+	background-color: yellow;
+	font-weight: bold;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+.main_image {
+	width: 300px;
+	height: 300px;
+	align-items: right;
+}
+.main_body{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 150px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.question{
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+.block{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.block_image{
+	margin-bottom: 30px;
+}
+.block_text{
+	margin-top: 15px;
+	width: 300px;
+}
+.form{
+	padding-top: 100px;
+	background-color: rgb(228, 222, 222);
+	padding-bottom: 50px;
+}
+.form_header{
+	text-align:  center;
+	padding-bottom: 50px;
+}
+.forms{
+	display: flex;
+	justify-content: center;
+}
+input {
+	margin-bottom: 20px;
+	width: 400px;
+	height: 50px;
+	padding: 10px;
+	padding-left: 30px;
+	font-size: 16px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+.second_button{
+	width: 400px;
+	height: 50px;
+	background-color: yellow;
+	font-weight: bold;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+.bottom{
+	height: 100px;
+	text-align: center;
+	background: rgb(91, 180, 194);
+ 	margin-top: 0px;
+}
+.final_words{
+	padding-top: 40px;
+	color: white;
+}
